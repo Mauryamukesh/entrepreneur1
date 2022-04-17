@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,500;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+}
+.container
+{
+    /* border: 1px solid red; */
+    height: 200vh;
+    width: 100%;
+    background: #f9f9f9;
+    position: relative;
+}
+.header
+{
+    display: flex;
+    margin: 3%;
+    visibility: hidden;
+}
+.box-container
+{
+    width: 40%;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.box-container h1
+{
+    color: #777;
+}
+.box-inner-1
+{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(to right,rgba(224, 86, 253,1.0),rgba(190, 46, 221,1.0));
+}
+.sub-inner{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    margin: 0 5px;
+    position: relative;
+}
+.sub-inner h3
+{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+h3:hover
+{
+    background: rgb(101, 94, 216);
+    color: #fff;
+    transform: 2s;
+}
+.image
+{
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+    position: relative;
+    margin: 10px 5%;
+}
+img
+{
+    max-width:100%;
+    max-height: 100%;
+    justify-items: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.entrepreneurs
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 5px;
+    text-decoration: underline;
+    width: 100%;
+}
+.entrepreneurs:hover
+{
+    background: rgb(161, 23, 253);
+    color: #fff;
+}
+.box-inner-2
+{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    /* background: rgba(190, 46, 221,1.0);
+    border: 1px solid blue; */
+}
+.col1
+{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.col1:nth-child(1)
+{
+    background: linear-gradient(to right,rgba(232, 67, 147,1.0),rgba(211, 84, 0,1.0));
+}
+.col1:nth-child(2)
+{
+    background: linear-gradient(to right,rgba(55, 66, 250,1.0),
+    rgba(243, 104, 224,1.0),rgba(238, 82, 83,1.0),rgba(232, 65, 24,1.0));
+}
+.col1:nth-child(3)
+{
+    background: linear-gradient(to right, rgba(55, 66, 250,1.0),rgba(232, 67, 147,1.0),
+    rgba(232, 65, 24,1.0),rgba(211, 84, 0,1.0));
+}
+.col1:nth-child(4)
+{
+    background: linear-gradient(to right,rgba(224, 86, 253,1.0),
+    rgba(217, 128, 250,1.0),rgba(6, 82, 221,1.0));
+}
+.col1:nth-child(5)
+{
+    background: linear-gradient(to right,rgba(217, 128, 250,1.0),rgba(255, 118, 117,1.0),
+    rgba(214, 48, 49,1.0),rgba(211, 84, 0,1.0));
+}
+.col1:nth-child(6)
+{
+background: linear-gradient(to right,rgba(214, 48, 49,1.0),rgba(211, 84, 0,1.0));
+}
